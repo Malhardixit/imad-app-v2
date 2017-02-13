@@ -87,7 +87,7 @@ return htmltemplate;
 }
 app.get(':articleName', function (req, res){
     // articleName == article-one
-    // articles[articleName]{} content objct for article one
+    // articles[articleName] == {} content objct for article one
     var articleName= req.params.articleName;
      res.send(createtemplate(articles[articleName]));
 }); 
