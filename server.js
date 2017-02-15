@@ -10,8 +10,8 @@ app.get('/', function (req, res) {
 });
 var articles={
 'article-one' : {
-    title:'Article One|Malhar Dixit',
-    heading:'Article One',
+    title:'Article-One|Malhar Dixit',
+    heading:'Article-One',
     date:'Feb 13 2017',
     content:
     `<p>
@@ -27,8 +27,8 @@ var articles={
         </p>`
 },
 'article-two':{
-    title:'Article Two|Malhar Dixit',
-    heading:'Article Two',
+    title:'Article-Two|Malhar Dixit',
+    heading:'Article-Two',
     date:'Feb 13 2017',
     content:
     `<p>
@@ -37,8 +37,8 @@ var articles={
         </p>`
 },
 'article-three': {
-      title:'Article Three|Malhar Dixit',
-    heading:'Article Three',
+      title:'Article-Three|Malhar Dixit',
+    heading:'Article-Three',
     date:'Feb 13 2017',
     content:
     `<p>
