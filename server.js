@@ -85,9 +85,9 @@ var htmltemplate = `
 return htmltemplate;
 
 }
-app.get(':articleName', function (req, res){
-    // articleName == article-one
-    // articles[articleName] == {} content objct for article one
+app.get('/:articleName', function (req, res){
+    // articleName = article-one
+    // articles[articleName] = {} content objct for article-one
     var articleName = req.params.articleName;
      res.send(createTemplate(articles[articleName]));
 }); 
